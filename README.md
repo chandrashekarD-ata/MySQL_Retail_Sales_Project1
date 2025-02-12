@@ -12,8 +12,11 @@ The analysis aims to answer key business questions and support data-driven decis
 
 ```sql
 CREATE DATABASE sql_project_p1;
+```
+```sql
 USE sql_project_p1;
 ```
+
 **Create Table**
 
 ```sql
@@ -32,10 +35,13 @@ CREATE TABLE retail_sales (
 );
 ```
 **Data Cleaning**
-**Select and Count Records**
 
+**Select and Count Records**
 ``sql
-SELECT * FROM retail_sales LIMIT 7;
+SELECT * 
+FROM retail_sales LIMIT 7;
+```
+```sql
 SELECT COUNT(*) FROM retail_sales;
 ```
 
@@ -43,9 +49,21 @@ SELECT COUNT(*) FROM retail_sales;
 
 ```sql
 SELECT * FROM retail_sales
-WHERE transaction_id IS NULL OR sale_date IS NULL OR sale_time IS NULL OR
-      gender IS NULL OR category IS NULL OR quantity IS NULL OR cogs IS NULL OR
-      total_sale IS NULL;
+WHERE transaction_id IS NULL
+OR
+sale_date IS NULL
+OR
+sale_time IS NULL
+OR
+gender IS NULL
+OR
+category IS NULL
+OR
+quantity IS NULL
+OR
+cogs IS NULL
+OR
+total_sale IS NULL;
 ```
 
 **DELETE FROM retail_sales**
