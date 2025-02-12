@@ -10,7 +10,7 @@ The analysis aims to answer key business questions and support data-driven decis
 
 **Create Database**
 
-'''sql
+```sql
 CREATE DATABASE sql_project_p1;
 USE sql_project_p1;
-'''
+```
