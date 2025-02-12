@@ -197,4 +197,5 @@ ChandrashekarD**
 
 **Email: sincerrechandrav@gmail.com**
 
-Feel free to contribute to this project by submitting issues or pull requests. Thank you!
+**Feel free to contribute to this project by submitting issues or pull requests.** 
+**Thank you**
